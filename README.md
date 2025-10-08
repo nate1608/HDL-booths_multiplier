@@ -24,7 +24,7 @@ The design is based on the standard datapath-controller model. Booth's algorithm
 
 The FSM controller implements the following state diagram to sequence the operations over several states, from initialization to completion.
 
-![Booth's Algorithm FSM](https://i.imgur.com/G4k2E5W.jpg)
+![Booth's Algorithm FSM]
 
 ### Hardware Architecture
 
