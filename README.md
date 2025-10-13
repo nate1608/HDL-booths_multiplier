@@ -1,6 +1,6 @@
 # 5-Bit Signed Multiplier using Booth's Algorithm in Verilog
 
-This repository contains the RTL design and verification environment for a multi-cycle 5-bit signed multiplier. The architecture implements Booth's algorithm to efficiently handle two's complement multiplication of both positive and negative numbers.
+This repository contains the RTL design and verification environment for a multi-cycle 16-bit signed multiplier. The architecture implements Booth's algorithm to efficiently handle two's complement multiplication of both positive and negative numbers.
 
 The design is partitioned into a datapath and a control path, where a Finite-State Machine (FSM) sequences the necessary add, subtract, and shift operations.
 
