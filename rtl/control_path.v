@@ -5,9 +5,6 @@
 // ARITHMATICS IS DONE IN S3 AND S4
 // SHIFTING IS DONE IN S5
 // TAKES TWO CYCLES(ONE FOR LOADING THE ARITHMETIC AND OTHER FOR SHIFTING)
-//IN PREVIOUS GCD FINDER THIS WAS NOT A LIMITATION SO WE IMPLEMENTED FASTER MEALY LIKE APROACH
-//   more complex, requires one cycle (faster)
-//GOTO THIS FOR COMPLETE COMPARISION: https://gemini.google.com/u/1/app/6cdb9dd065b1e7c6
 
 
 module control_path(PS, ldA, clrA,  ldQ, clrQ, ldM, clrFF, shift, addsub, ldB, count, done,
@@ -61,4 +58,5 @@ module control_path(PS, ldA, clrA,  ldQ, clrQ, ldM, clrFF, shift, addsub, ldB, c
             endcase
         end   
         
+
 endmodule
